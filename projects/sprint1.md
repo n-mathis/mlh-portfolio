@@ -3,18 +3,45 @@ title: Sprint 1 Project
 layout: page
 ---
 
-## Inspiration
+# Study-Buddies
+A mobile app for finding a study buddy!
+<div align="center">
+    <img alt="sample" src="./studybuddies.gif" width="75%">
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# 🎉 What it does
+Lets students create accounts on the app and login to view other student profiles. It's the studying version of Tinder. The user will view profiles that have similar traits, such as class or subject they are interested in studying for, and can decide if they want to match with them. If both users decide to match, they can then message and plan to meet up, whether in person or virtually, to study together (this part isn't functional).
 
-## What it does
+# 🔧 How it is built
+We used React Native and Firebase to create Study Buddies. We wanted to make an app that could, at the minimum, match users based on subject they want to study. After deciding what the MVP was, we prototyped the UX/UI using Figma and started learning React Native. We slowly incorporated Firebase into our project and got the Realtime Database and Authentication working for users.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# 🚀 How to run it
+Follow the environment set up for the [React Native CLI](https://reactnative.dev/docs/environment-setup).
+## IOS
+To run the app on IOS:
+```ssh
+git clone git@github.com:n-mathis/study-buddies.git
+cd study-buddies
+npm install
+cd ios/
+pod install
+cd ..
+npx react-native start
+```
+You'll have to open another terminal window and run:
+```ssh
+npx react-native run-ios
+```
 
-## How we built it
+# 👏 Contributors
+[NaNa Mathis](https://github.com/n-mathis)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[Remi Srijunyanont](https://github.com/ohitsremi)
 
-## Challenge we ran into
+[Saul Montes De Oca](https://github.com/saulmontesdeoca)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# 👾 Devpost
+[Check it out](https://devpost.com/software/study-buddies-xz8atj)
+
+# 📄 License
+[LICENSE](https://github.com/n-mathis/study-buddies/blob/master/LICENSE)
